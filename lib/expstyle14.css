@@ -1,0 +1,163 @@
+        body {
+            color: #333;
+            font-family: Arial,Helvetica,sans-serif;
+        }
+        body {
+            font: 12px Arial,Helvetica,sans-serif;
+        }
+
+        form {
+            margin: 0px;
+            padding: 0px;
+            border: 0px none;
+            font-size: 100%;
+        }
+
+/*
+        .authpane-title-alt {
+            padding-left: 26px;
+            background: url('../lib/controls/spiral.png') no-repeat scroll 0px 40% transparent;
+            text-align: left;
+        }
+*/
+        .authpane-title {
+            /*margin-top: -33px;*/
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 18px;
+            text-align: center;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        .authpane-form .form-row {
+            margin: 10px 0px;
+        }
+        .authpane-form .form-label {
+            position: relative;
+            margin-bottom: 2px;
+        }
+        .authpane-form .form-label a:link, .authpane-form .form-label a:visited {
+            position: absolute;
+            right: 0px;
+            color: #9C9C9C;
+            font-size: 11px;
+            text-decoration: none;
+        }
+        .authpane-form .form-value input {
+            width: 270px;
+            padding: 4px 9px;
+            background: none repeat scroll 0% 0% #FFF;
+            font-size: 18px;
+            box-sizing: border-box;
+        }
+
+        .authpane-form .form-controls {
+            margin-bottom: 0px;
+        }
+
+
+        .button.button-large {
+            height: 30px;
+            background-position: 0px -60px;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 27px;
+        }
+        .button, /*a.button, */button.button {
+            display: inline-block;
+            position: relative;
+            height: 20px;
+            margin: 0px;
+            padding: 1px 8px 0px;
+            border-width: 1px;
+            border-style: solid;
+            border-image: none;
+            border-color: #D7D7D8 #C9CACA #B4B5B5;
+            background: url('../lib/controls/button.png') repeat-x scroll 0px 0px #D3D3D3;
+            color: #333;
+            font-size: 11px;
+            line-height: 17px;
+            text-align: center;
+            text-shadow: 0px 1px 0px #FFF;
+            text-decoration: none;
+            cursor: pointer;
+            white-space: nowrap;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        .button-wide {
+            width: 100%;
+        }
+
+
+        .authpane-logo {
+            overflow: hidden;
+            margin: 20px -69px 0px;
+            padding: 12px 0px 11px;
+            border-top: 1px solid #EBEBEB;
+            background: none repeat scroll 0% 0% #F3F3F3;
+            text-align: center;
+            border-radius: 0px 0px 5px 5px;
+        }
+        .authpane-logo-left {
+            overflow: hidden;
+            margin: 0px 10px 0px;
+            padding: 18px 0px 11px;
+            background: none repeat scroll 0% 0% #F3F3F3;
+        }
+        
+        .authpane-logo-image {
+            display: inline-block;
+            width: 128px;
+            height: 18px;
+            background: url('../lib/controls/logo.png') no-repeat scroll 0% 0% transparent;
+        }
+
+       
+
+        .error-box {
+            margin: 20px -69px 0px;
+            padding: 12px 0px 11px;
+            background: none repeat scroll 0% 0% #F30000;
+            text-align: center;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .page {
+            position: relative;
+            /*width: 830px;*/
+            width: 100%;
+            min-height: 100%;
+            margin: 0px auto -50px;
+            margin-top: 0px;
+            margin-right-value: auto;
+            margin-bottom: -50px;
+            margin-left-value: auto;
+            margin-left-ltr-source: physical;
+            margin-left-rtl-source: physical;
+            margin-right-ltr-source: physical;
+            margin-right-rtl-source: physical;
+        }
+
+        .page:after {
+            content: "";
+            display: block;
+            height: 50px;
+        }
+
+        .authpane {
+            position: relative;
+            /*width: 270px;*/
+            width: 100%;
+            /*margin: 150px auto 20px;
+            padding: 70px 70px 0px;*/
+            margin: 20px auto 20px;
+            padding: 10px 0px 0px;
+            background: none repeat scroll 0% 0% #F7F7F7;
+            border-radius: 10px;
+        }
